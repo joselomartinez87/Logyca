@@ -11,8 +11,6 @@ namespace WebAPI.Data
 
         }
 
-        public DbSet<Command> Commands { get; set; }
-
         public DbSet<Enterprise> Enterprise { get; set; }
 
         public DbSet<Code> Code { get; set; }

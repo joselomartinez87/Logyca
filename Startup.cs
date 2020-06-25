@@ -39,8 +39,7 @@ namespace WebAPI
             });
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-            services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+            
             services.AddScoped<IEnterpriseRepo, SqlEnterpriseRepo>();
             services.AddScoped<ICodeRepo, SqlCodeRepo>();
         }
