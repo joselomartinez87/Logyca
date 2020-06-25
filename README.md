@@ -25,3 +25,6 @@ Las tecnologías/arquitectura usadas deben ser:
  ASP.NET MVC Core
  Entity Framework Code First (con migraciones)
  Arquitectura por capas con: DAL, BLL, Presentación. 
+
+
+Cuenta con dos controladores uno para Enterprise y otropara Code con los metodos segun lo solicitado
